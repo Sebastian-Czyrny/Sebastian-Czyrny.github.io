@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid #1B143E; 
   border-radius: 50% !important;
 }
 
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #1B143E repeat;
   position: relative;
 }
 
@@ -562,6 +562,13 @@ small {
   background-color: #008073 !important;
 }
 
+.penn-red {
+  background-color: #92140C !important;
+}
+
+.penn-red-text {
+  color:#fff6f6;
+}
 /* .teal {
   background-color: #00695c !important;
 } */
