@@ -60,3 +60,24 @@ The below is an image of the front page:
 The below is an image of the eduction page:
 
 ![act3_1](readme_images/act3_2.jpg)
+
+# Activity 4: Google Maps Embedding
+
+The below are images regarding the embedding of my places travelled Google Maps
+
+## Repo
+
+The below is an image of the repo:
+
+![act4_2](readme_images/act4_2.jpg)
+
+The below is an image of the commit history:
+
+![act4_3](readme_images/act4_3.jpg)
+
+
+## Deployed Site
+
+The below is an image of the places travelled section
+
+![act4_1](readme_images/act4_1.jpg)
