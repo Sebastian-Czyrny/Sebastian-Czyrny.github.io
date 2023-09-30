@@ -237,7 +237,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: #1B143E;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -572,6 +572,14 @@ small {
 /* .teal {
   background-color: #00695c !important;
 } */
+
+#education-b {
+  color:#1B143E !important;
+}
+
+#education-b:hover {
+  filter: brightness(1.1);
+}
 
 @media (min-width: 1200px) {
   #experience .container {
