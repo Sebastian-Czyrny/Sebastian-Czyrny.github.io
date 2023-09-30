@@ -34,3 +34,29 @@ The below is an image of the about page:
 The below is an image of the projects page:
 
 ![act2_1](readme_images/act2_2.jpg)
+
+
+# Activity 3: Changing Color theme 
+
+The below are images regarding the update of the color theme
+
+## Repo
+
+The below is an image of the repo:
+
+![act3_3](readme_images/act3_3.jpg)
+
+The below is an image of the commit history:
+
+![act3_4](readme_images/act3_4.jpg)
+
+
+## Deployed Site
+
+The below is an image of the front page:
+
+![act3_1](readme_images/act3_1.jpg)
+
+The below is an image of the eduction page:
+
+![act3_1](readme_images/act3_2.jpg)
