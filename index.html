@@ -313,26 +313,18 @@
       <div class="container">
         <div class="row">
 
+          <!-- Occasional -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Web App - Occasional" src="/assets/img/occasional.png" style="height: 100%; width: 100%" class="activator" />
               </div>
-              <div class="card-content">
+              <div class="card-content" style="overflow: auto">
                 <span class="card-title activator penn-red-text hoverline"><a href="https://occasional.onrender.com/">Occasional</a> <i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
                  A web application that allows event creators to publicize their events to the UofT community. 
-                 <a href="https://github.com/Sebastian-Czyrny/Occasional" target="_blank">
-                  <button class="icon-btn github">
-                    <i class="fa fa-github"></i>
-                  </button>
-                </a>
-                <a href="https://www.youtube.com/watch?v=xnNRBDV0ELo&ab_channel=TommyNi" target="_blank">
-                  <button class="icon-btn github">
-                    <i class="fa fa-youtube"></i>
-                  </button>
-                </a>
+                 
                 </p>
               </div>
               <div class="card-reveal">
@@ -341,9 +333,22 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
+                  <li>Source code: <a href="https://github.com/Sebastian-Czyrny/Occasional" target="_blank">
+                    <button class="icon-btn github">
+                      <i class="fa fa-github"></i>
+                    </button>
+                  </a>
+                  </li>
+                  <li>View demo: <a href="https://www.youtube.com/watch?v=xnNRBDV0ELo&ab_channel=TommyNi" target="_blank">
+                    <button class="icon-btn github">
+                      <i class="fa fa-youtube"></i>
+                    </button>
+                  </a></li>
                   <li><b>Tools:</b> Python, Python Flask, MongoDB, Bcrypt</li>
+                  <hr>
                   <li>Register/login as an event creator or student</li>
                   <li>Create new events, RSVP, or search.</li>
+                  <hr>
                   <li><b><u>Collaborated</u></b> in team of 6 to produce a responsive and useable web app.</li>
                   <li><b><u>Researched</u></b> UI/UX design principles and incorporated them into a live app.</li>
                   <li><b><u>Administered</u></b> MongoDB Cloud Database for data persistency</li>
@@ -354,12 +359,59 @@
             </div>
           </div>
 
+          <!-- LLM Agent -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="LLM Agent" src="/assets/img/llm_agent.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content" style="overflow: auto">
+                <span class="card-title activator penn-red-text hoverline">LLM Agent<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                 An LLM Agent to Chat with your Shareholder Reports. A Project as part of the UofT Final Year Engineering Capstone course. 
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Source code: <a href="https://github.com/Sebastian-Czyrny/LLM-Agent" target="_blank">
+                    <button class="icon-btn github">
+                      <i class="fa fa-github"></i>
+                    </button>
+                  </a>
+                  </li>
+                  <li>View demo: <a href="https://drive.google.com/file/d/1v8jN9jQ41dXaj2BLFMPS6_KRxN53gwab/view?usp=sharing" target="_blank">
+                    <button class="icon-btn github">
+                      <i class="fa fa-google-drive"></i>
+                    </button>
+                  </a></li>
+                  <li><b>Tools:</b> Python, Langchain, Streamlit, LlamaIndex, SEC EDGAR API</li>
+                  <hr>
+                  <li>Select Shareholder Reports via PDF upload, fetching from the SEC EDGAR API, and from previously saved.</li>
+                  <li>Choose different prompting strategies and document chunk retrieval mechanisms.</li>
+                  <hr>
+                  <li><b><u>Collaborated</u></b> in team of 4 to produce an application that utilizes LLMs (both OSS and API Inference) to chat with shareholder reports.</li>
+                  <li><b><u>Researched</u></b> the Natural Language Processing pipeline and incorporated workflow into the application.</li>
+                  <li><b><u>Innovated</u></b> current state-of-the-art prompting strategies with our very own Multi-Stage Prompting technique.</li>
+                  <li>Underwent rigorous <b><u>Testing</u></b> of the LLM Agent accuracy through the comparison of human-generated responses with those of the LLM Agent under different prompting and retrieval strategies.</li>
+                  <li><b><u>Concluded</u></b> that no prompting strategy dominates over any other and each has their own use case. The Re-Ranker retrieval strategy performs almost identically to OpenAI's ADA Embeddings Model®.</li>
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+
+          <!-- TCP chat app -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Live Chat App" src="/assets/img/chat_app.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
-              <div class="card-content">
+              <div class="card-content" style="overflow: auto">
                 <span class="card-title activator penn-red-text hoverline">Live Chat CLI App<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -372,7 +424,14 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
+                  <li>Source code: <a href="https://github.com/Sebastian-Czyrny/Live-CLI-Chat-App" target="_blank">
+                    <button class="icon-btn github">
+                      <i class="fa fa-github"></i>
+                    </button>
+                  </a>
+                  </li>
                   <li><b>Tools:</b> C, Unix, Sockets, TCP, IPv4</li>
+                  <hr>
                   <li>Register/login to the chat app and save credentials to a database.</li>
                   <li>Create and join sessions hosted by other users on separate devices.</li>
                   <li>Use TCP and IPv4 to set up connections between client and server.</li>
@@ -384,12 +443,13 @@
             </div>
           </div>
 
+          <!-- Admin Dashboard -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Admin Dashboard Web App" src="/assets/img/admin_dashboard.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
-              <div class="card-content">
+              <div class="card-content" style="overflow: auto">
                 <span class="card-title activator penn-red-text hoverline">Admin Dashboard Web App<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
