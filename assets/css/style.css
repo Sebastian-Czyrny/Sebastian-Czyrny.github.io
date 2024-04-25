@@ -79,7 +79,7 @@
   background-color: black;
 }
 
-img.occasional:hover {
+.icon-btn:hover img.ocassional {
   filter: brightness(0) invert(1);
 
 }
