@@ -79,6 +79,11 @@
   background-color: black;
 }
 
+img.occasional:hover {
+  filter: brightness(0) invert(1);
+
+}
+
 /* Buttons - Read Me, Contact Us */
 
 .readme {
