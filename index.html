@@ -99,7 +99,12 @@
           class="waves-effect waves-dark penn-red-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
-
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Research section" href="#research" class="waves-effect waves-dark penn-red-text"><i
+            class="mdi-book-open-page-variant small"></i><span>Research</span></a>
+      </li>
       <li class="bold">
         <!-- mdi-av-web small
              mdi-av-my-library-books small-->
@@ -278,14 +283,14 @@
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="https://ece.utoronto.ca/" target="_blank"
-                      class="penn-red-text hoverline">University of Toronto,<br> Digital Systems (ECE241)</a></span>
+                      class="penn-red-text hoverline">University of Toronto,<br> Digital Systems, Computer Organization</a></span>
                 </p>
               </div>
             </div>
             <div class="role brown-text text-darken-2">Teaching Assistant</div>
             <ul>
               <li>
-                Facilitated lab sessions for a second-year engineering course on Digital Systems, providing hands-on guidance and support to students.
+                Facilitated lab sessions for second-year engineering courses on Digital Systems and Computer Organization, providing hands-on guidance and support to students.
               </li>
               <li>
                 Graded assignments, midterms, and lab reports, ensuring timely and constructive feedback to enhance student learning.
@@ -294,12 +299,12 @@
                 Collaborated with fellow teaching assistants and faculty members in regular meetings to discuss student progress and course improvements.
               </li>
               <li>
-                <b>Tools:</b> ModelSim, Intel Quartus Prime 
+                <b>Tools/Software:</b> ModelSim, Intel Quartus Prime, RISC-V, De1-SoC FPGA board
               </li>
             </ul>
           </div>
           <div class="card-action">
-            <span>Fall 2024 | Ontario, Canada</span>
+            <span>Fall 2024 - Present | Ontario, Canada</span>
           </div>
         </div>
 
@@ -337,11 +342,62 @@
             </ul>
           </div>
           <div class="card-action">
-            <span>May 2022 - Present | Ontario, Canada</span>
+            <span>2022 - 2024 | Ontario, Canada</span>
           </div>
         </div>
       </div>
     </section>
+
+     <!-- Third Section: Research -->
+     <section id="research" class="section scrollspy">
+      <h3 class="page-title white-text penn-red">Research</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://cgra-me.ece.utoronto.ca/" target="_blank"><img alt="Zhiffy logo"
+                    src="/assets/img/cgrame.svg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://cgra-me.ece.utoronto.ca/" target="_blank"
+                    class="penn-red-text hoverline">CGRA-ME<br>University of Toronto</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Graduate Research Assistant</div>
+            <ul>
+              <li>
+                <b>Research Focus:</b> Modeling and Exploration of coarse-grained reconfigurable array (CGRA) architectures and algorithms for mapping applications onto them
+              </li>
+            </ul>
+            <b>"RAAP-CGRA: Placement for CGRAs with Restricted Routing Architectures"</b>, <i>Co-author</i>
+            <ul>
+              <li>
+                Modeled three increasingly restrictive CGRA architectures within CGRA-ME's C++ framework
+              </li>
+              <li>
+                Demonstrated that CGRA mapping algorithms that are made aware of the routability of the architecture can significantly improve application mappability by 50% over algorithms that are indifferent to it
+              </li>
+              <li>
+                <i>
+                  Accepted to the CGRA4HPC'25 workshop
+                </i>
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Fall 2024 - Present</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
@@ -633,13 +689,30 @@
         <!-- Databases -->
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">Databases</h4>
+            <h4 class="brown-text light">Database and Web</h4>
             <div class="row text-center">
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/mongodb.webp" class="responsive-img" />MongoDB
               </div>
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/msqls.jpg" class="responsive-img" />Microsoft SQL Server
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/jenkins.jpg" class="responsive-img" />Jenkins
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mssms.png" class="responsive-img" />Microsoft SQL Server Management Studio
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />Amazon Web Services
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/azure.png" class="responsive-img" />Microsoft Azure
+              </div>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img alt="" src="/assets/img/Google-Cloud-Emblem.png" class="responsive-img" />Google Cloud
+                </div>
               </div>
             </div>
           </div>
@@ -678,17 +751,12 @@
         <!-- Other -->
         <div class="card">
           <div class="card-content">
-            <h4 class="brown-text light">Other</h4>
+            <h4 class="brown-text light">Version Control</h4>
             <div class="row text-center">
               <div class="col s4 m2">
                 <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
               </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/jenkins.jpg" class="responsive-img" />Jenkins
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/mssms.png" class="responsive-img" />Microsoft SQL Server Management Studio
-              </div>
+              
             </div>
           </div>
         </div>
